@@ -20,7 +20,7 @@ body {
   font-weight: 700;
 }
 span {
-  color: #ffa343;
+  color: #d519c5;
 }
 .button-container {
   position: absolute;
@@ -34,7 +34,7 @@ span {
   margin-top: 30px;
   margin-right: 10px;
   padding: 13px 40px;
-  background: #ffa343;
+  background: #d519c5;
   color: #000000;
   font-size: 20px;
   font-weight: 600;
