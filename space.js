@@ -51,8 +51,8 @@ window.onload = function () {
   context = board.getContext("2d"); //untuk menggambar board
 
   //draw initial rocket
-  // context.fillStyle="green";
-  // context.fillRect(rocket.x, rocket.y, rocket.width, rocket.height);
+  context.fillStyle="green";
+  context.fillRect(rocket.x, rocket.y, rocket.width, rocket.height);
 
   //load images
   rocketImg = new Image();
