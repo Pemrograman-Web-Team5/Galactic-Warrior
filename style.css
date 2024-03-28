@@ -371,3 +371,62 @@ header.sticky {
   color: #979797;
   font-size: 15px;
 }
+.kontak {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 9rem;
+  background-color: #280b38;
+}
+.kontak-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.kontak-image-2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.kontak-text h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+.kontak-text h2 {
+  font-size: var(--h2-font);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  font-size: 43px;
+}
+.kontak-text h3 {
+  font-size: 35px;
+  font-weight: 1000;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 35px;
+}
+.kontak-text p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+}
+.kontak-title {
+  background-color: #280b38;
+}
+.kontak-title-1 {
+  text-align: center;
+}
+.kontak-title-1 h2 {
+  font-size: var(--h2-font);
+  font-weight: 800;
+}
+.social {
+  margin-top: 30px;
+}
