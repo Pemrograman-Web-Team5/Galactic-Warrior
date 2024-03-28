@@ -50,13 +50,10 @@ window.onload = function () {
   board.height = boardHeight;
   context = board.getContext("2d"); //untuk menggambar board
 
-  //draw initial rocket
-  context.fillStyle="green";
-  context.fillRect(rocket.x, rocket.y, rocket.width, rocket.height);
 
   //load images
   rocketImg = new Image();
-  rocketImg.src = "./img/./rocket.png";
+  rocketImg.src = "./Asset/rocket.png";
   rocket.onload = function () {
     context.drawImage(
       rocketImg,
@@ -68,7 +65,7 @@ window.onload = function () {
   };
 
   alienImg = new Image();
-  alienImg.src = "./img/./alien1.png";
+  alienImg.src = "./Asset/alien1.png";
   createAliens();
 
   requestAnimationFrame(update);
